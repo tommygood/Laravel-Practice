@@ -52,4 +52,8 @@ $app->singleton(
 |
 */
 
+
+header('Access-Control-Allow-Origin: http://198.19.249.33:5173');
+header('Access-Control-Allow-Credentials: true');
+header('Access-Control-Allow-Headers: *, content-type');
 return $app;
